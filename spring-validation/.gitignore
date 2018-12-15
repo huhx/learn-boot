@@ -13,7 +13,6 @@
 ### IntelliJ IDEA ###
 .idea
 *.iws
-*.iml
 *.ipr
 
 ### NetBeans ###
@@ -23,7 +22,3 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-
-.mvn
-mvnw
-mvnw.cmd
