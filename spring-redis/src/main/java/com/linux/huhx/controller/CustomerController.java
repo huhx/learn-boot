@@ -2,7 +2,6 @@ package com.linux.huhx.controller;
 
 import com.linux.huhx.model.Customer;
 import com.linux.huhx.repository.CustomerRepository;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -51,7 +50,6 @@ public class CustomerController {
     customer.setLastName(customer.getLastName().toUpperCase());
 
     customerRepository.update(customer);
-
     return "Done";
   }
 

@@ -2,13 +2,14 @@ package com.linux.huhx;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.jms.annotation.EnableJms;
 
 @SpringBootApplication
-public class HuhxApplication {
+@EnableJms
+public class SpringJmsApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(HuhxApplication.class, args);
+    SpringApplication.run(SpringJmsApplication.class, args);
   }
 
 }
-
